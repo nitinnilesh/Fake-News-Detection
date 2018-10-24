@@ -51,14 +51,14 @@ def clean(text):
         return None
 
 
-data = pd.read_csv('fakingnews_scrap.csv', header=0)
+data = pd.read_csv('news_scrap_final.csv', header=0)
 clean_data = pd.DataFrame(columns=data.columns.values)
 
 for i, row in data.iterrows():
     heading = clean(row['HEADING'])
     body = clean(row['BODY'])
-    if heading and body:
-        clean_data = clean_data.append({'HEADING': heading, 'BODY': body, 'CATEGORY': row['CATEGORY']}, ignore_index=True)
+    if heading and body and row['CATEGORY'] and row['Real/Fake']:
+        clean_data = clean_data.append({'HEADING': heading, 'BODY': body, 'CATEGORY': row['CATEGORY'], 'Real/Fake': row['Real/Fake']}, ignore_index=True)
 
 clean_data.dropna(how='any')
-clean_data.to_csv('fakingnews_data.csv', encoding='utf-8', index=False)
+clean_data.to_csv('news_data_final.csv', encoding='utf-8', index=False)
