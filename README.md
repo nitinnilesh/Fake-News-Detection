@@ -1,5 +1,9 @@
 # Fake News Detection
 
+[Link to webpage](https://anirudhkovuru.github.io/Fake-News-Detection/) <br/>
+[Link to the video](https://youtu.be/nZ2tow-bIhE)
+
+
 ## Team members
 - Pranav Nair - 201525149 
 - Anirudh Kovuru - 20161189 
