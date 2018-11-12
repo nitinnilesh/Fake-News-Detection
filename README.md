@@ -1,5 +1,11 @@
 # Fake News Detection
 
+Pranav Nair 201525149 \
+Anirudh Kovuru 20161189 \
+Nitin Nilesh 20172113 \
+Ashish Kumar 201530127 
+
+## Introduction
 Fake news detection has recently attracted a growing interest from the general public and researchers as the circulation of misinformation online increases, particularly in media outlets such as social media feeds, news blogs, and online newspapers. For instance, a recent report by the Jumpshot Tech Blog1 found that Facebook referrals accounted for 50% of the total traffic to fake news sites and 20% total traffic to reputable websites. In the field of Fake News Detection, a lot depends on the common features extracted from the corpora. Hence, it’s easy to see why Domain-dependant fake news detection would be a manageable task - since feature learning would be a relatively easy task. However, domain invariant fake news detection would be a significantly more difficult task as it involves learning of features that span over news from multiple domains.
 
 ## Datasets
