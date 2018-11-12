@@ -1,9 +1,9 @@
 # Fake News Detection
 
 ## Team members
-- Pranav Nair - 201525149 \
-- Anirudh Kovuru - 20161189 \
-- Nitin Nilesh - 20172113 \
+- Pranav Nair - 201525149 
+- Anirudh Kovuru - 20161189 
+- Nitin Nilesh - 20172113 
 - Ashish Kumar - 201530127 
 
 ## Introduction
