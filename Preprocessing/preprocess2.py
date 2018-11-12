@@ -59,7 +59,7 @@ def clean(text):
         return None
 
 
-data = pd.read_csv('news_scrap_final.csv', header=0)
+data = pd.read_csv('news_scrap_final3.csv', header=0)
 clean_data = pd.DataFrame(columns=['title', 'text', 'label'])
 
 for i, row in data.iterrows():
@@ -69,6 +69,6 @@ for i, row in data.iterrows():
         clean_data = clean_data.append({'title': heading, 'text': body, 'label': row['Real/Fake']}, ignore_index=True)
 
 clean_data.dropna(how='any')
-clean_data.to_csv('news_data_final2.csv', encoding='utf-8', index=False)
+clean_data.to_csv('news_data_final3.csv', encoding='utf-8', index=False)
 
 ############ VERSION2 ##############################
